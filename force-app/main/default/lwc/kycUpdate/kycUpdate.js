@@ -38,6 +38,7 @@ export default class KycUpdate extends LightningElement {
             alert('File uploaded successfully: ' + uploadedFiles[0].name);
             // Record-Triggered Flow will fire automatically
         }
+        console.log('B');
     }
 
 
