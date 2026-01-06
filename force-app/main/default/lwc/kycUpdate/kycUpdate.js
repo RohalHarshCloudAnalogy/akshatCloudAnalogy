@@ -18,7 +18,7 @@ export default class KycUpdate extends LightningElement {
 
     createRecordAndUpload(){
         if(!this.docType){
-            alert('Please enter document type!');
+            alert('Please enter new type!');
             return;
         }
 
