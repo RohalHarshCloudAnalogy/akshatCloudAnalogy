@@ -5,7 +5,7 @@ public with sharing class KYCController {
         KYC_Document__c doc = new KYC_Document__c();
         doc.Name = docType != null ? docType : 'New KYC Document';
         doc.Verification_Status__c = 'Not Checked';
-        doc.KYC_Status__c = 'Pending';
+        doc.KYC_Status__c = 'Pend';
         insert doc;
         return doc.Id;
     }
