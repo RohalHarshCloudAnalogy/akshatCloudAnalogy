@@ -25,7 +25,7 @@ export default class KycUpdate extends LightningElement {
         createKYCRecord({ docType: this.docType })
             .then(result => {
                 this.dummyRecordId = result;
-                console.log('KYC Document Record Created: ' + this.dummyRecordId);
+                console.log('Hi ' + this.dummyRecordId);
             })
             .catch(error => {
                 console.error('Error creating KYC record: ', error);
