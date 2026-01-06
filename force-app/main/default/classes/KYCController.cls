@@ -9,4 +9,13 @@ public with sharing class KYCController {
         insert doc;
         return doc.Id;
     }
+
+    @AuraEnabled
+    public static Boolean methodName(){
+        try {
+            return true;
+        } catch (Exception e) {
+            throw new AuraHandledException(e.getMessage());
+        }
+    }
 }
