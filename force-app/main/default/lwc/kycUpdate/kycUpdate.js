@@ -40,6 +40,7 @@ export default class KycUpdate extends LightningElement {
         }
 
         console.log('A');
+        console.log('B');
     }
 
 
